@@ -1,3 +1,4 @@
+// Deterministic writer: one exact joke, one trailing newline, stdlib only.
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
